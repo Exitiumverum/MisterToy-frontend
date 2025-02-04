@@ -37,8 +37,8 @@ export function ToyIndex() {
     <div className="container mx-auto p-4">
       <h2 className="text-3xl font-bold text-center mb-6">Our Toys</h2>
       <ToyFilter toys={toys} onFilterChange={handleFilterChange} />
-      <div className="">
-        <ToyList toys={filteredToys.length > 0 ? filteredToys : toys} />
+      <div className="mt-5">
+        <ToyList toys={filteredToys} />
       </div>
     </div>
   )
