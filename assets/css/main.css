@@ -1,0 +1,13 @@
+@import url(./components/app-header.css);
+@import url(./components/app-navbar.css);
+@import url(./components/search-bar.css);
+
+@import url(./components/toy.css);
+@import url(./components/toy-list.css);
+@import url(./components/app-main.css);
+
+@import url(./vars.css);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

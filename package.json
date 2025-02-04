@@ -1,0 +1,39 @@
+{
+    "name": "your-project-name",
+    "version": "1.0.0",
+    "description": "Your project description",
+    "main": "index.js",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "build:css": "tailwindcss -i ./assets/css/main.css -o ./output.css --watch"
+    },
+    "author": "Dan Tayari",
+    "license": "ISC",
+    "devDependencies": {
+        "@vitejs/plugin-react": "^4.3.4",
+        "autoprefixer": "^10.4.17",
+        "lodash": "^4.17.21",
+        "postcss": "^8.4.35",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "tailwindcss": "^3.4.1",
+        "vite": "^6.0.11"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Exitiumverum/MisterToy-frontend.git"
+    },
+    "keywords": [],
+    "bugs": {
+        "url": "https://github.com/Exitiumverum/MisterToy-frontend/issues"
+    },
+    "homepage": "https://github.com/Exitiumverum/MisterToy-frontend#readme",
+    "dependencies": {
+        "axios": "^1.7.9",
+        "fs": "^0.0.1-security",
+        "http": "^0.0.1-security",
+        "https": "^1.0.0",
+        "react-router-dom": "^7.1.5"
+    }
+}

@@ -1,0 +1,8 @@
+.toy-list{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1em;
+    margin: 1em;
+    flex-wrap: wrap;
+}

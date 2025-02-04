@@ -1,0 +1,16 @@
+.toy {
+    padding: 0.4em;
+    border-radius: 1em;
+    font-size: 1.5em;
+    border: solid black;
+    background-color: var(--bg-color);
+    color: var(--txt-color-light);
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    transition: scale 0.3s ease;
+}
+
+.toy:hover {
+    scale: 1.09;
+}

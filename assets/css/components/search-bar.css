@@ -1,0 +1,10 @@
+.search-bar {
+    justify-self: center;
+    width: 30%; 
+    margin: auto; 
+}
+.search-bar input{
+    padding: 0.3em;
+    border-radius: 1em;
+    background-color: var(--txt-color-light);
+}
